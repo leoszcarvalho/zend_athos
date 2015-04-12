@@ -1,0 +1,130 @@
+.custom-menu
+{
+	width:150px;
+	text-align:center;
+}
+
+.color-box-red-bd
+{
+	border-top-color:#E36159 !important;
+	
+	}
+
+.color-box-red-bg
+{
+	background-color:#E36159 !important;;
+	
+	}
+
+.color-box-red-txt
+{
+	color:#E36159 !important;;
+	
+	}
+
+
+.color-box-green-bd
+{
+	border-top-color:#0f9d58 !important;
+	
+	}
+
+.color-box-green-bg
+{
+	background-color:#0f9d58 !important;;
+	
+	}
+
+.color-box-green-txt
+{
+	color:#0f9d58 !important;;
+	
+	}
+
+.color-box-orange-bd
+{
+	border-top-color:#fbbd64 !important;
+	
+	}
+
+.color-box-orange-bg
+{
+	background-color:#fbbd64 !important;;
+	
+	}
+
+.color-box-orange-txt
+{
+	color:#fbbd64 !important;;
+	
+	}
+
+
+.color-box-darkblue-bd
+{
+	border-top-color:#415e9b !important;
+	
+	}
+
+.color-box-darkblue-bg
+{
+	background-color:#415e9b !important;;
+	
+	}
+
+.color-box-darkblue-txt
+{
+	color:#415e9b !important;;
+	
+	}
+
+
+
+.color-box-pink-bd
+{
+	border-top-color:#D07FEC !important;
+	
+	}
+
+.color-box-pink-bg
+{
+	background-color:#D07FEC !important;;
+	
+	}
+
+.color-box-pink-txt
+{
+	color:#D07FEC !important;;
+	
+	}
+
+
+
+
+.color-box-blue-bd
+{
+	border-top-color:#0088cc !important;
+	
+	}
+	
+.color-box-blue-bg
+{
+	background-color:#0088cc !important;
+	
+	}
+	
+.color-box-blue-txt
+{
+	color:#0088cc !important;;
+	
+	}
+
+.tp_zero
+{
+	margin-top:0px !important;
+	
+	}
+
+.min_adjust
+{
+	height:420px;}

@@ -1,3 +1,4 @@
+
 <?php
 /**
  * Global Configuration Override
@@ -10,7 +11,26 @@
  * control, so do not include passwords or other sensitive information in this
  * file.
  */
-
 return array(
-    // ...
-);
+     'db' => array(
+         'driver'         => 'Pdo',
+         'dsn'            => 'mysql:dbname=athos;host=54.94.255.127',
+         'driver_options' => array(
+             PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''
+         ),
+        'username'       => 'athos',
+        'password'       => 'athos@99212'
+     ),
+     'service_manager' => array(
+         'factories' => array(
+             'Zend\Db\Adapter\Adapter'
+                     => 'Zend\Db\Adapter\AdapterServiceFactory',
+         ),
+     ),
+    /*'module_layouts' => array(
+        //'Autenticacao' => 'autenticacao/layout',
+        'Athos' => 'athos/layout',
+        'Autenticacao' => 'autenticacao/layout',
+        'Album' => 'album/layout',
+    ),*/
+ );

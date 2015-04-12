@@ -1,0 +1,103 @@
+<div role="main" class="main">
+
+				<section class="page-top">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<ul class="breadcrumb">
+									<li><a href="/">Home</a></li>
+									<li class="active">Contato</li>
+								</ul>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<h1>Contato</h1>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
+				<div id="googlemaps" class="google-map"></div>
+
+				<div class="container">
+
+					<div class="row">
+						<div class="col-md-6">
+
+							<div class="alert alert-success hidden" id="contactSuccess">
+								<strong>Sucesso!</strong> Sua mensagem foi enviada, entraremos em contato o mais breve possível.
+							</div>
+
+							<div class="alert alert-danger hidden" id="contactError">
+								<strong>Erro!</strong> Não foi possível enviar a sua mensagem.
+							</div>
+
+							<h2 class="short"><strong>Contato</strong></h2>
+							<?php echo $this->form()->openTag($form); ?>
+								<div class="row">
+									<div class="form-group">
+										<div class="col-md-6">
+											<label>Nome *</label>
+											<?php echo $this->formRow($form->get('nome'));?>
+										</div>
+										<div class="col-md-6">
+											<label>Email *</label>
+											<?php echo $this->formRow($form->get('email'));?>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group">
+										<div class="col-md-12">
+											<label>Assunto *</label>
+											<?php echo $this->formRow($form->get('assunto'));?>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="form-group">
+										<div class="col-md-12">
+											<label>Mensagem *</label>
+											<?php echo $this->formRow($form->get('mensagem'));?>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<?php echo $this->formRow($form->get('enviar'));?>
+									</div>
+								</div>
+							<?php echo $this->form()->closeTag(); ?>
+						</div>
+						<div class="col-md-6">
+
+							<h4 class="push-top">Agende uma <strong>Reunião</strong></h4>
+							<p>Antes de nos visitar, entre em contato via telefone ou Skype para que possamos agendar um dia e horário e assim melhor atendê-lo.</p>
+
+							<hr />
+
+							<h4>O <strong>Escritório</strong></h4>
+							<ul class="list-unstyled">
+								<li><i class="fa fa-map-marker"></i> <strong>Endereço:</strong> Helbor Offices Vila Rica - Avenida Conselheiro Nébias, 754 - Boqueirão, Santos - SP</li>
+								<li><i class="fa fa-phone"></i> <strong>Telefone:</strong> (**) *****-*****</li>
+								<li><i class="fa fa-phone"></i> <strong>Skype:</strong> *************</li>
+								<li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:atendimento@athospublicidade.com.br">atendimento@athospublicidade.com.br</a></li>
+							</ul>
+
+							<hr />
+
+							<h4>Horário de <strong>Funcionamento</strong></h4>
+							<ul class="list-unstyled">
+								<li><i class="fa fa-time"></i> Segunda - Sexta das 8h às 18hrs.</li>
+								
+							</ul>
+
+						</div>
+
+					</div>
+
+				</div>
+
+</div>
