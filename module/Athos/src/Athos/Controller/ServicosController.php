@@ -56,7 +56,8 @@ class ServicosController extends AbstractActionController
 			 
 			  $adapter = new \Zend\Db\Adapter\Adapter(array(
     			'driver' => 'Mysqli',
-   				'database' => 'athos',
+                        'host' => '54.94.255.127',
+    			'database' => 'athos',
     			'username' => 'athos',
     			'password' => 'athos@99212'
  				));
